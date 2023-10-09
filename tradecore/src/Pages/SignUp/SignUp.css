@@ -1,0 +1,116 @@
+.signup{
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #880725;
+}
+
+.login-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  
+}
+.login-main h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.login-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    border: 1px solid #d9deff;
+    padding: 30px 20px;
+    border-radius: 50px;
+
+    
+}
+.login-description{
+    text-align: center;
+}
+.horizontal-line{
+    height: 2px;
+    background-color: #c5c5c5;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.login-content-img img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.login-content-wrapper form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-content-wrapper form .input-container{
+    border: 1px solid #880725;
+    padding: 20px 25px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    display: flex;
+}
+.login-content-wrapper form input{
+    border: none;
+    margin-top: 0;
+    width: 100%;
+    font-size: .8em;
+    margin-left: 10px;
+    background-color: transparent;
+}
+.login-content-wrapper form input:focus{
+    outline: none;
+}
+.login-content-wrapper form p{
+
+    text-align: center;
+    font-size: 1.2 em;
+    
+}
+.login-content-wrapper form button{
+    width: 50%;
+    background-color: #880725;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+.login-content-wrapper form button:hover{
+    background-color: #880725a5;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.reveal{
+    cursor: pointer;
+}
+.forgot-password{
+    font-size: .7em;
+}
+.signuplink{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+a{
+    color: #880725;
+}
+h1{
+    margin-bottom: 40px;
+}

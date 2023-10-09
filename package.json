@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@cometchat-pro/chat": "^2.2.0",
+    "firebase": "^9.20.0"
+  }
+}

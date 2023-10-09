@@ -1,0 +1,36 @@
+select{
+    border: none;
+    width: 100%;
+    color: grey;
+}
+select:focus{
+    outline: none;
+}
+label{
+    color: grey;
+    font-size: .7em;
+}
+.radios input{
+    margin-right: 0;
+    width: 20px;
+    height: 20px;
+}
+.radios{
+    justify-content:baseline;
+    border: none;
+}
+
+.modal-card{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.modmod{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

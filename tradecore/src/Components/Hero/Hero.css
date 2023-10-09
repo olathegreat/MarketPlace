@@ -1,0 +1,72 @@
+.hero{
+    color: black;
+    width: 100vw;
+    height: 90vh;
+    margin-top: -50px;
+    color: white;
+    
+}
+.sliderContainer{
+    
+    height: 100%;
+    background: linear-gradient(rgba(70, 0, 26, 0.848), rgba(0, 0, 0, 0.905)),url("../../../public/img/westminster.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+
+    padding: 100px;
+}
+
+.slideItem{
+    display: flex;
+    color: white;
+    
+}
+.slideItem .imagecontainer{
+
+    display: flex;
+    justify-content: center;
+}
+.slideItem .imagecontainer img{
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+}
+.slideItem .description{
+    text-align: center;
+    color: #880725;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.slideItem .description h2{
+    width: 50%;
+}
+
+.hero-mobile{
+    display: none;
+}
+
+
+@media screen and (max-width: 500px){
+    .slideItem{
+        width: 100vw;
+    }
+    .big-screen{
+        display: none;
+
+    }
+    .hero-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .hero-mobile a{
+        padding: 15px 30px;
+        border-radius: 10px;
+        background-color: white;
+        color: #880725;
+    }
+}

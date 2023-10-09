@@ -1,0 +1,36 @@
+.modal-card{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 300vh;
+    color: black;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.mod-card{
+    background-color: white;
+    color: grey;
+    padding: 50px;
+    border-radius: 20px;
+}
+.mod-card a{
+    padding: 10px;
+    background-color: #880725;
+    color: white;
+    border-radius: 10px;
+}
+
+.if a{
+    background-color: grey;
+    color: #880725;
+    color: white;
+}
+.mod-card p{
+    margin-top: 20px;
+}

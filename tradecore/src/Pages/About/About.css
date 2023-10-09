@@ -1,0 +1,14 @@
+.about-page{
+   
+    background-color: #880725;
+    color: white;
+}
+.about-page-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.about-page-wrapper .left{
+    margin-right: 20px;
+}
